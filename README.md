@@ -4,9 +4,9 @@ This repository contains helper scripts and files to assist with the development
 
 ## Files
 
-* `buildFlagsToString.yaml`
-  This is a [ytt](https://carvel.dev/ytt/) overlay that converts an array format of `build_args` into a string.
-  The array format is much more convenient for changing and updating dependencies, but `platformio.ini` requires it to be a string.
+* `buildFlagsToString.yaml` & `libDepsToString.yaml`
+  This are [ytt](https://carvel.dev/ytt/) overlays that convert an array format of `build_args` or `lib_deps` into a string.
+  The array format is much more convenient for changing and updating dependencies, but `platformio.ini` requires them to be a string.
 
 * `jsonToIni.jq`
   This is a jq module that converts a JSON file to an INI configuration file.
