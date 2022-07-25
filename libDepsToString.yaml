@@ -4,5 +4,5 @@
 #@overlay/match by=overlay.all, expects="1+"
 _:
   #@overlay/match missing_ok=True
-  #@overlay/replace via=lambda left, right: " ".join(left)
+  #@overlay/replace via=lambda left, right: ", ".join(left)
   lib_deps:
